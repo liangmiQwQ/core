@@ -7,7 +7,7 @@ import {
 
 // !! vapor directive is different from vdom directives
 export type VaporDirective = (
-  node: Element | VaporComponentInstance,
+  node: Element,
   value?: () => any,
   argument?: string,
   modifiers?: DirectiveModifiers,
